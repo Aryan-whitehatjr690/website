@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(27, 31, 34, 0.85);
+}
+
+
+.maindiv {
+    width: 25%;
+    height: 500px;
+    position: absolute;
+    left: 83%;
+    top: 75%;
+    transform: translate(-50%, -80%);
+    background-image: url('WhatsApp\ Image\ 2021-09-06\ at\ 14.00.49.jpeg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 9s infinite linear;
+    
+}
+
+@keyframes slider {
+    1% {
+        background-image: url('WhatsApp\ Image\ 2021-11-15\ at\ 18.59.55.jpeg')
+    }
+
+    40% {
+        background-image: url('WhatsApp\ Image\ 2021-11-15\ at\ 18.59.55\ \(1\).jpeg');
+    }
+
+
+}
+
+h1{
+    font-family: 'Estonia', cursive;
+    font-size: 60;
+    color:white;
+    
+}
+
+h2{
+    font-family: 'Estonia', cursive;
+    font-size: 30;
+    color:white;
+}
+
+h4{
+    color:red
+}
+
+.h12{
+    top:-20%;
+    font-family: 'Bebas Neue', cursive;
+    font-size:x-large
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    }
+    .item{
+        position:relative;
+        padding:5;
+      
+    }
+
+    body{
+        background: linear-gradient(#ec0960 0%, #7309ec 100%);
+        /*background: linear-gradient(#60ebeb 0%, #27ae60 100%);*/
+     }
+
+     .header{
+        background-color:cadetblue;
+      
+        display:flex;
+        justify-content: space-between;
+
+      /*  background: linear-gradient(#60ebeb 0%, #27ae60 100%);*/
+        background: linear-gradient(rgb(4, 232, 248) 0%, #b709ec 100%);
+    }
